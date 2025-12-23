@@ -1,20 +1,22 @@
-# Simple calculator in Python
+# Simple calculator using functions
 
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    return a / b
+
+# Values
 a = 10
 b = 5
 
-# Addition
-add = a + b
-print("Addition:", add)
-
-# Subtraction
-subtract = a - b
-print("Subtraction:", subtract)
-
-# Multiplication
-multiply = a * b
-print("Multiplication:", multiply)
-
-# Division
-divide = a / b
-print("Division:", divide)
+print("Addition:", add(a, b))
+print("Subtraction:", subtract(a, b))
+print("Multiplication:", multiply(a, b))
+print("Division:", divide(a, b))
